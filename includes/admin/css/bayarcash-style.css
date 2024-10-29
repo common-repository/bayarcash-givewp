@@ -1,0 +1,21 @@
+div#bayarcash-verfiy-token {
+    margin: 10px 0 0 0 !important;
+}
+
+div#bayarcash-verfiy-token>#verify-button {
+    margin: 0 20px 0 0;
+}
+
+div#bayarcash-verfiy-token>#verify-status {
+    display: inline-block;
+}
+
+div#bayarcash-verfiy-token>.valid {
+    color: green;
+    font-weight: bold;
+}
+
+div#bayarcash-verfiy-token>.invalid {
+    color: red;
+    font-weight: bold;
+}

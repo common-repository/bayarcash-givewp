@@ -1,0 +1,212 @@
+/* Tab wrapper */
+#bayarcash-tabs-wrapper {
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    border-radius: 4px;
+}
+
+/* Tab container */
+.bayarcash-tabs-container {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0 #ddd;
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Tab navigation */
+.bayarcash-tabs {
+    width: 300px;
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #ccd0d4;
+}
+
+.bayarcash-tabs li {
+    margin: 0;
+    padding: 0;
+}
+
+.bayarcash-tabs a {
+    box-shadow: none;
+    color: #333;
+    display: block;
+    font-weight: 600;
+    outline: none;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.bayarcash-tabs a:hover{
+    background-color: #ebebeb;
+}
+.bayarcash-tabs a.active {
+    box-shadow: none;
+    color: #333;
+    display: block;
+    font-weight: 600;
+    outline: none;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #fff;
+    border-left: 4px solid #66bb6a;
+    color: #333;
+}
+
+/* Tab content area */
+.bayarcash-tab-content {
+    background: #fff;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    min-height: 400px;
+    padding: 30px 30px;
+    width: 100%;
+}
+
+/* Individual tab pane */
+.bayarcash-tab-pane {
+    display: none;
+}
+
+.bayarcash-tab-pane.active {
+    display: block;
+}
+
+/* Tab title */
+.bayarcash-tab-pane h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e4e7;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Form table */
+.bayarcash-tab-pane table {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    width: 100%;
+}
+
+/* Table row */
+.bayarcash-tab-pane tr {
+    display: flex!important;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+/* Table header and data cells */
+.bayarcash-tab-pane th,
+.bayarcash-tab-pane td {
+    padding: 15px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.bayarcash-tab-pane th {
+    width: 13%;
+    font-weight: 600;
+    color: #23282d;
+}
+
+/* Form inputs */
+.bayarcash-tab-pane input[type="text"],
+.bayarcash-tab-pane textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+}
+
+.bayarcash-tab-pane textarea {
+    min-height: 100px;
+}
+
+/* Radio buttons */
+.bayarcash-tab-pane .give-radio-inline ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bayarcash-tab-pane .give-radio-inline li {
+    margin-bottom: 10px;
+}
+
+.bayarcash-tab-pane .give-radio-inline input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Description text */
+.bayarcash-tab-pane .give-field-description {
+    margin-top: 8px;
+    font-style: italic;
+    color: #646970;
+}
+
+/* Verify token button and status */
+#bayarcash-vue-app,
+#bc-duitnow-vue-app,
+#bc-linecredit-vue-app,
+#bc-duitnowqr-vue-app,
+#bc-duitnowshopee-vue-app,
+#bc-duitnowboost-vue-app,
+#bc-duitnowqris-vue-app,
+#bc-duitnowqriswallet-vue-app {
+    margin-top: 10px;
+}
+
+#bayarcash-verify-button,
+#bc-duitnow-verify-button,
+#bc-linecredit-verify-button,
+#bc-duitnowqr-verify-button,
+#bc-duitnowshopee-verify-button,
+#bc-duitnowboost-verify-button,
+#bc-duitnowqris-verify-button,
+#bc-duitnowqriswallet-verify-button {
+    margin-right: 10px;
+}
+
+#bayarcash-verify-status,
+#bc-duitnow-verify-status,
+#bc-linecredit-verify-status,
+#bc-duitnowqr-verify-status,
+#bc-duitnowshopee-verify-status,
+#bc-duitnowboost-verify-status,
+#bc-duitnowqris-verify-status,
+#bc-duitnowqriswallet-verify-status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#bayarcash-verify-status.valid,
+#bc-duitnow-verify-status.valid,
+#bc-linecredit-verify-status.valid,
+#bc-duitnowqr-verify-status.valid,
+#bc-duitnowshopee-verify-status.valid,
+#bc-duitnowboost-verify-status.valid,
+#bc-duitnowqris-verify-status.valid,
+#bc-duitnowqriswallet-verify-status.valid {
+    background-color: #e6ffed;
+    color: #1a7f37;
+}
+
+#bayarcash-verify-status.invalid,
+#bc-duitnow-verify-status.invalid,
+#bc-linecredit-verify-status.invalid,
+#bc-duitnowqr-verify-status.invalid,
+#bc-duitnowshopee-verify-status.invalid,
+#bc-duitnowboost-verify-status.invalid,
+#bc-duitnowqris-verify-status.invalid,
+#bc-duitnowqriswallet-verify-status.invalid {
+    background-color: #ffebe9;
+    color: #cf222e;
+}
